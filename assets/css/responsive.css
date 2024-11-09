@@ -1,0 +1,575 @@
+/* CSS media queries for : Galaxy fold screen resolution : 279px to 319px */
+@media (min-width : 279px) and (max-width : 319px) {
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pt-80{
+        padding-top: 15px;
+    }  
+    .pb-80{
+        padding-bottom: 15px;
+    }
+    body{
+        font-size: 9px;
+        line-height: 18px;
+    }    
+    /* 2. Grid */
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li{
+        margin-left: 5px;
+    }
+    .menu li a{
+        font-size: 10px;
+    }
+    .banner h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner p{
+        padding: 5px;
+    }
+    .banner img{
+        width: 50%;
+    }
+    .success-left{
+        text-align: center;
+    }
+    .success-right {
+        margin-left: 0;
+    }
+    .success-left h1{
+        font-size: 20px;
+        line-height: 30px;
+    } 
+    .success-right h1 {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    .single-feature h1 {
+        padding: 2px 0;
+    }
+    .single-feature{
+        padding: 5px;
+        text-align: center;
+        margin-bottom: 3px;
+    }
+    .single-feature img {
+        width: 100%;
+    }
+    .footer-area {
+        padding: 20px 2px;
+    }
+
+    /* About Page */
+    .about-img {
+        text-align: center;
+    }
+    .about-img img{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .about-content h1 {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+    .about-content h4 {
+        font-size: 12px;
+        font-weight: 600;
+        padding-top: 5px;
+        line-height: 24px;
+    }
+    .about-content-list p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .about-content p {
+        padding: 5px 0;
+    }
+    .about-content-list i {
+        font-size: 18px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    /* Contact page */
+    .reg-form-inner {
+        width: 400px;
+    }
+
+}
+
+
+/* --- Device : Most of the Smartphone Mobiles (portrait)
+   --- Screen : 320px to 479px
+*/
+ 
+@media (min-width : 320px) and (max-width : 480px){
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pt-80{
+        padding-top: 20px;
+    }  
+    .pb-80{
+        padding-bottom: 20px;
+    }
+    body{
+        font-size: 10px;
+        line-height: 20px;
+    }
+    /* 2. Grid */
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li{
+        margin-left: 10px;
+    }
+    .menu li a{
+        font-size: 11px;
+    }
+    .banner h1 {
+        font-size: 25px;
+        line-height: 1.7rem;
+    }
+    .banner p{
+        padding: 10px;
+    }
+    .banner img{
+        width: 60%;
+    }
+    .success-left{
+        text-align: center;
+    }
+    .success-right {
+        margin-left: 0;
+    }
+    .success-left h1{
+        font-size: 25px;
+        line-height: 1.7rem;
+    } 
+    .success-right h1 {
+        font-size: 25px;
+        line-height: 1.7rem;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .single-feature h1 {
+        padding: 5px 0;
+    }
+    .single-feature{
+        padding: 8px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .single-feature img {
+        width: 100%;
+    }
+    .footer-area {
+        padding: 10px 0px;
+    }
+
+    /* About Page */
+    .about-img {
+        text-align: center;
+    }
+    .about-img img{
+        width: 90%;
+        margin-bottom: 15px;
+    }
+    .about-content h1 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 15px;
+    }
+    .about-content h4 {
+        font-size: 14px;
+        font-weight: 600;
+        padding-top: 5px;
+        line-height: 26px;
+    }
+    .about-content-list p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .about-content p {
+        padding: 10px 0;
+    }
+    .about-content-list i {
+        font-size: 18px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        margin-right: 10px;
+    }
+    /* Contact page */
+    .reg-form-inner {
+        width: 230px;
+    }
+    .reg-form-inner h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .form-contant{
+        margin-bottom: 5px;
+    }
+    .form-contant label{
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+    .form-contant input{
+        padding: 5px;
+    }
+    .form-contant input::placeholder{
+        font-size: 9px;
+    }
+    .btn {
+        padding: 10px 0;
+        font-size: 12px;
+        margin: 5px auto;
+    }
+
+}
+
+
+/* --- Device : Low Resolution Tablets, Mobiles (Landscape)
+   --- Screen : 480px to 767px
+*/
+
+@media (min-width : 481px) and (max-width : 767px){
+    .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .pt-80{
+        padding-top: 25px;
+    }  
+    .pb-80{
+        padding-bottom: 25px;
+    }
+    body{
+        font-size: 11px;
+        line-height: 21px;
+    }
+    /* 2. Grid */
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li{
+        margin-left: 20px;
+    }
+    .menu li a{
+        font-size: 12px;
+    }
+    .banner h1 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .banner p{
+        padding: 15px;
+    }
+    .banner img{
+        width: 70%;
+    }
+    .success-left{
+        text-align: center;
+    }
+    .success-right {
+        margin-left: 0;
+    }
+    .success-left h1{
+        font-size: 27px;
+        line-height: 37px;
+    } 
+    .success-right h1 {
+        font-size: 27px;
+        line-height: 37px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .single-feature h1 {
+        padding: 10px 0;
+    }
+    .single-feature{
+        padding: 15px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .single-feature img {
+        width: 100%;
+    }
+    .footer-area {
+        padding: 25px 5px;
+    }
+    /* About Page */
+    .about-img {
+        text-align: center;
+    }
+    .about-img img{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .about-content h1 {
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 20px;
+    }
+    .about-content h4 {
+        font-size: 14px;
+        padding-top: 5px;
+        line-height: 26px;
+    }
+    .about-content-list p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .about-content p {
+        padding: 10px 0;
+    }
+    .about-content-list i {
+        font-size: 18px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    /* Contact page */
+    .reg-form-inner {
+        width: 400px;
+    }
+}
+
+
+/* --- Device : Tablets, Ipads (portrait)
+   --- Screen : 768px to 1024px
+*/
+@media (min-width : 768px) and (max-width : 1024px){
+    .container {
+        width: 85%;
+        margin: 0 auto;
+    }
+    .pt-80{
+        padding-top: 30px;
+    }  
+    .pb-80{
+        padding-bottom: 30px;
+    }
+    /* 2. Grid */
+    .col-4{
+        width: 100%;
+        float: left;
+    }
+    .col-6{
+        width: 100%;
+        float: left;
+    }
+    .col-12{
+        width: 100%;
+        float: left;
+    }
+    .logo{
+        text-align: center;
+    }
+    .menu{
+        text-align: center;
+    }
+    .menu li{
+        margin-left: 25px;
+    }
+    .menu li a{
+        font-size: 14px;
+    }
+    .banner h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner p{
+        padding: 20px;
+    }
+    .banner img{
+        width: 80%;
+    }
+    .success-left{
+        text-align: center;
+    }
+    .success-right {
+        margin-left: 0;
+    }
+    .success-left h1{
+        font-size: 30px;
+        line-height: 40px;
+    } 
+    .success-right h1 {
+        font-size: 30px;
+        line-height: 40px; font-size: 29px;
+        line-height: 39px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .single-feature h1 {
+        padding: 10px 0;
+    }
+    .single-feature{
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .single-feature img {
+        width: 100%;
+    }
+    .footer-area {
+        padding: 30px 10px;
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+/* --- Device : Laptops, Desktops
+   --- Screen : 1025px to 1280px
+*/
+@media (min-width : 1025px) and (max-width : 1280px){
+    /* .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pt-80{
+        padding-top: 40px;
+    }  
+    .pb-80{
+        padding-bottom: 40px;
+    }
+    .banner img{
+        width: 90%;
+    }
+    .banner h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .success-right h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .success-left h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .single-feature h1 {
+        padding: 10px 0;
+    }
+    .single-feature p {
+        padding-bottom: 0px;
+    }
+    .single-feature img {
+        height: 203px;
+    }
+    .single-feature {
+        margin: 0 5px;
+        padding: 11px;
+    }
+    .footer-area {
+        padding: 35px 15px;
+    } */
+}
+
+/* 
+  ---Device = Desktops
+  ---Screen = 1281px to higher resolution desktops
+*/
+@media (min-width : 1281px){
+    /* .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .pt-80{
+        padding-top: 45px;
+    }  
+    .pb-80{
+        padding-bottom: 45px;
+    }
+    .banner img{
+        width: 95%;
+    }
+    .banner h1 {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .success-right h1 {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .success-left h1 {
+        font-size: 37px;
+        line-height: 47px;
+    }
+    .single-feature h1 {
+        padding: 15px 0;
+    }
+    .single-feature p {
+        padding-bottom: 0px;
+    }
+    .single-feature img {
+        height: 203px;
+    }
+    .single-feature {
+        margin: 0 10px;
+        padding: 11px;
+    }
+    .footer-area {
+        padding: 40px 20px;
+    } */
+}
